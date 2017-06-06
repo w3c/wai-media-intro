@@ -19,7 +19,7 @@ contributors:
   - The Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
-Captions and audio descriptions make online media accessible to people who have disabilities. This tutorial will demonstrate how to add captions and audio descriptions to online media.  Other accessibility techniques, such as transcripts and foreign-language subtitles, are included in the discussion.  Here are brief definitions of these media-accessibility approaches.
+Captions and audio descriptions make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions and audio descriptions to online media. In addition to captions and audio descriptions, other techniques, such as transcripts and foreign-language subtitles are available to ensure more accessible media.
 {:#cc+ad_purpose}
 
 -   **Audio descriptions**: An extra track of narration that conveys
