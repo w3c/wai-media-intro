@@ -54,18 +54,15 @@ answers), are of less use to viewers who are blind or visually impaired.
 Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind or visually impaired, captions and descriptions have benefits beyond their original target
 audiences:
 
--   Both captions and descriptions can be used to help students and adults with cognitive disabilities engage more directly with media, helping to focus attention or to provide comprehension support.
+-   Students and adults with cognitive disabilities can engage more directly with media when captions and audio descriptions are available as they help to focus attention or provide comprehension support.
 -   Captions are useful when teaching children and adults how to read,
-    or to help people learn a foreign language.
--   Captions can be used by all people: for example, in noisy
-    environments such as a bar or an airport lounge, or in any place
+    or to enable people learn a foreign language.
+-   Everyone can use captions in noisy
+    environments such as a bar, an airport lounge, or in any place
     where it would be inappropriate to turn up the volume.
--   Search engines can use captions as a way to locate information in a
-    video or audio presentation.
--   Audio descriptions can be used to reinforce complex visual concepts,
-    especially for children or adults with learning disabilities.
-
-In some cases, captions and descriptions may be the only means by which users can access any information at all from video or audio clips.
+-   Search engines can use captions as a way to locate information in media.
+-   Audio descriptions can reinforce complex visual concepts, which is
+    especially useful for children or adults with learning disabilities.
 
 For a quick overview on determining whether or not captions and audio
 descriptions are necessary, see the [caption/description decision
