@@ -20,16 +20,22 @@ Captions enable people who are deaf or hard of hearing to follow media content, 
 
 There are three ways to present captions to viewers:
 
--   **Pop-on**: Captions which appear in discrete blocks, usually
-    containing 1-3 rows of text. These are normally created for
-    pre-produced material, and are used in the majority of captioned
-    online videos.<br />
+-   **Pop-on captions** appear in discrete blocks and usually
+    contain one to three rows of text. They are normally created for
+    pre-produced material, and used in the majority of captioned
+    online videos.
+
+    Example:<br>
     [![An example of pop-on captions.](cc_perspectives.png)](https://www.w3.org/WAI/perspectives/captions.html)
--   **Roll-up**: Captions which scroll up, one row at a time, onto the
-    screen. These are normally created for live programming, but can
-    also be used for pre-produced material.<br />
+-   **Roll-up captions** scroll up onto the
+    screen, one row at a time. These are normally created for live programming, but can
+    also be used for pre-produced material.
+
+    Example:<br>
     [![An example of roll-up captions.](roll-up.png)](http://ncamftp.wgbh.org/sp/wai/roll-up_cc.mp4)
--   **Paint-on**: Text that appears to "paint" onto the screen, one character at a time, as the data are received. Typically, when one row of captions finishes painting onto the screen, the row scrolls up and a new row begins paint onto the screen.<br />
+-   **Paint-on captions** are text that appears to “paint” onto the screen, one character at a time, as the data is received. Typically, when one row of captions finishes painting onto the screen, the row scrolls up and a new row begins paint onto the screen.
+
+    Example:<br>
     [![An example of paint-on captions.](paint-on.png)](http://ncamftp.wgbh.org/sp/wai/paint-on_cc.mp4)
 
 Note that if a video has no narration or dialog, it is important to
