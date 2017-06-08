@@ -194,5 +194,4 @@ captions that are informative and easy to read.
 -   [<abbr title="Described and Captioned Media Program">DCMP</abbr> Captioning
     Key](http://www.captioningkey.org/quality_captioning.html)
 -   [<abbr title="Described and Captioned Media Program">DCMP</abbr> Captioning Tip Sheet](https://www.dcmp.org/ai/225/)
--   [Captioning
-    FAQ](http://main.wgbh.org/wgbh/pages/mag/services/captioning/faq/sugg-styles-conv-faq.html)
+-   [Captioning FAQ](http://main.wgbh.org/wgbh/pages/mag/services/captioning/faq/sugg-styles-conv-faq.html)
