@@ -124,13 +124,22 @@ captions:
 <%= ref :end %>
 {:/nomarkup}
 
+### Styling captions
 
-Most caption-creation tools give authors the ability to style captions in a number of ways: e.g., adding color to the text or background, specifying different font faces and sizes, etc. While it is possible to add styling information to captions, the support in browsers and other media players varies. If the media is produced for a specific player, style the captions to that player’s capabilities.  Otherwise, rely instead on the player's default presentation style (usually white characters on a black box).
+Most caption-creation tools let authors style captions in a number of ways: e.g., adding color to the text or background, specifying different font faces and sizes. While it is possible to add styling information, support in browsers and other media players varies. If the media is produced for a specific player, style the captions to that player’s capabilities.  Otherwise, rely instead on a player’s default presentation style (usually white characters on a black box).
 
-Note that many media players give users the option to [customize captions to personal preferences](playing.html#user-customization-of-captions), and these preferences always override author styling. For some users, customizing captions is essential, not just an enhancement:  styling captions in specific manners (for example, yellow text over a black background, with a very large font size) may be the only way for them to make the text readable.
+{::nomarkdown}
+<%= notes_start %>
+{:/nomarkdown}
+
+**Note:** Many media players give users the option to [customize captions to meet their personal preferences](playing.html#user-customization-of-captions). These preferences always override author styling. For some users, customizing captions is essential, not just an enhancement: styling captions in specific manners (for example, yellow text over a black background, with a very large font size) may be the only way for them to make the text readable.
 {:#cutom_cc}
 
-Below is an image showing how bold text can be added to captions in a
+{::nomarkdown}
+<%= notes_end %>
+{:/nomarkdown}
+
+Below is an image showing bold and italic text added to captions in a
 caption-authoring tool.
 
 ![A caption editor showing white caption text on a black background. One
