@@ -38,13 +38,19 @@ There are three ways to present captions to viewers:
     Example:<br>
     [![An example of paint-on captions.](paint-on.png)](http://ncamftp.wgbh.org/sp/wai/paint-on_cc.mp4)
 
-Note that if a video has no narration or dialog, it is important to
-indicate this to viewers so they do not think that captions are simply
-missing from the presentation. In this situation, provide a brief
-caption at the beginning of the presentation that indicates that no
+{::nomarkdown}
+<%= notes_start %>
+{:/nomarkdown}
+
+**Note:** If a video has no narration or dialog, inform viewers about it, so they do not think that captions are
+missing from the video. Provide a brief
+caption at the beginning of the video that indicates that no
 audio is provided.
 
-## Production workflow: pre-produced captions
+{::nomarkdown}
+<%= notes_end %>
+{:/nomarkdown}
+
 
 From a technical perspective, captions are simply text presented through
 markup that contains timing information and positioning codes. There are
