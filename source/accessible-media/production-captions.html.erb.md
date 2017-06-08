@@ -104,12 +104,15 @@ information.
 {::nomarkup}
 <%= ref :middle %>
 {:/nomarkup}
+
+Always provide the highest-quality captions that convey 100% accuracy.
+Keep the following points in mind when writing
 captions:
 
 -   Ensure that there are no spelling errors. This includes the names of
     characters or speakers.
 -   Use conventional grammar rules. After end punctuation (period,
-    question mark, exclamation point, etc.), always begin a new caption.
+    question mark, exclamation point, etc.), always begin a new caption block.
 -   Do not edit unless you have a specific reason to do so (e.g., to
     achieve a specific reading level). Fillers such as "um," "ah," etc.,
     can be deleted to save reading time unless doing so alters the
@@ -117,7 +120,10 @@ captions:
 -   Do not censor: the captions should always accurately represent what
     is spoken.
 
-### A word about styling captions
+{::nomarkup}
+<%= ref :end %>
+{:/nomarkup}
+
 
 Most caption-creation tools give authors the ability to style captions in a number of ways: e.g., adding color to the text or background, specifying different font faces and sizes, etc. While it is possible to add styling information to captions, the support in browsers and other media players varies. If the media is produced for a specific player, style the captions to that player’s capabilities.  Otherwise, rely instead on the player's default presentation style (usually white characters on a black box).
 
