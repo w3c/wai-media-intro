@@ -144,7 +144,8 @@ caption-authoring tool.
 
 ![A caption editor showing white caption text on a black background. One
 row of text is bold.](text_bold.png)
-And here is the WebVTT markup for that caption...
+
+And here is the WebVTT markup for that caption…
 
 {::nomarkdown}
 <%= code_start %>
@@ -161,7 +162,7 @@ The genome is a storybook that's been edited
 <%= code_end %>
 {:/nomarkdown}
 
-...and the TTML markup for the same caption:
+…and the TTML markup for the same caption:
 
 {::nomarkdown}
 <%= code_start %>
