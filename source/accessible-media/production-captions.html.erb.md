@@ -51,6 +51,7 @@ audio is provided.
 <%= notes_end %>
 {:/nomarkdown}
 
+## Production workflow for pre-produced captions
 
 From a technical perspective, captions are simply text presented through
 markup that contains timing information and positioning codes. There are
