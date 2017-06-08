@@ -16,15 +16,7 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
 
-## Caption basics
-
-Captions were invented for people who are deaf or hard of hearing, although they are [recognized to benefit many audiences](concepts.html#cc+ad_purpose). They can be open or closed:
-
--   **Closed captions** can be hidden and revealed by users, typically
-    by operating a button or menu on the player's control bar.
--   **Open captions** are visible to everyone and cannot be turned off.
-
-Captions always reflect dialog and narration, and are always written in the same language as the audio ([subtitles](subtitles.html), on the other hand, are a translation of the audio into another language). They also contain important **non-speech information**, such as sound effects or speaker cues.
+Captions enable people who are deaf or hard of hearing to follow media content, although they can be [beneficial to everyone](index.html#cc+ad_purpose). They always reflect dialog and narration, and are always written in the same language as the audio ([subtitles](subtitles.html), on the other hand, are a translation of the audio into another language). They also contain **important non-speech information**, such as sound effects or speaker cues.
 
 There are three ways to present captions to viewers:
 
