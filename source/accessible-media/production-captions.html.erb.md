@@ -94,9 +94,16 @@ formatted and timestamped.
 
 ### Caption quality
 
-Always provide the highest-quality captions that convey 100% accuracy.
+{::nomarkup}
+<%= ref :start %>
+{:/nomarkup}
+
 See [resources for writing quality captions](#resources-for-writing-quality-captions) for more
-information. Keep the following basic points in mind when writing
+information.
+
+{::nomarkup}
+<%= ref :middle %>
+{:/nomarkup}
 captions:
 
 -   Ensure that there are no spelling errors. This includes the names of
