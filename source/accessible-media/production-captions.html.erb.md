@@ -1,5 +1,5 @@
 ---
-title: Production options for captions
+title: Producing captions
 nav_title: Captions
 order: 2
 status: editors-draft
