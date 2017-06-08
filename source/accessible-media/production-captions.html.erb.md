@@ -53,8 +53,8 @@ audio is provided.
 
 ## Production workflow for pre-produced captions
 
-From a technical perspective, captions are simply text presented through
-markup that contains timing information and positioning codes. There are
+Captions are text presented on specified tiems thriughout a video.
+A caption file contains timing information and positioning codes. There are
 a variety of do-it-yourself tools available for creating captions for
 pre-produced video and audio clips.
 
