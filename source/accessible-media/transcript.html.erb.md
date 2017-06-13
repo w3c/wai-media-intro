@@ -1,6 +1,5 @@
 ---
-title: Transcript Concepts and Examples
-nav_title: Transcripts
+title: Transcripts
 order: 6
 status: editors-draft
 wcag_success_criteria:
@@ -17,17 +16,15 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
 
-## Transcript basics
-
-A transcript is a textual version of a program's audio track. They have
+A transcript is a text version of a video’s audio track. They have
 a wide variety of uses:
 
--   Users can quickly scan a transcript to learn about a video's subject
+-   Users can quickly scan a transcript to learn about a video’s subject
     matter prior to watching the video.
 -   Transcripts can be easily searched.
 -   Transcripts can be printed or converted to braille, or can be read
     offline on any desktop or mobile device.
--   They can be used as a basis for foreign-language translations.
+-   They can be used as a basis for translations.
 
 Transcripts can be static documents or they can be interactive: e.g.,
 words can be highlighted automatically as they are spoken, or words can
@@ -35,27 +32,22 @@ selected by the user in order to move to that spot in the video.
 
 [![An example of an interactive transcript.](xcr_perspectives.png)](https://www.w3.org/WAI/perspectives/keyboard.html)
 
-## Creating and presenting a transcript
+## Creating a transcript
 
-Most caption-editing tools provide an option to export a plain-text
-transcript (that is, one that is stripped of all timing, positioning and
-other markup). This text file can then be formatted for accessible
-presentation. Transcripts can also be created by simply listening to a
+Most editing tools for editing captions provide an option to export a plain-text
+transcript stripped of all timing, positioning and
+other markup. This text file can then be formatted in an accessible
+way. Transcripts can also be created by simply listening to a
 program's audio track and typing text into any word processor or text
 editor.
 
-HTML is the most accessible format for transcript presentation. As with
-any Web page, an accessible transcript should be marked up with
+HTML is the most accessible format for transcripts. As with
+any Web page, a transcript should be marked up with
 headings, links, landmark roles, lists and other structure in order to
-make navigation as efficient as possible. This also helps with SEO. Read
-more about [best practices for creating
-transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#best).
+make navigation as efficient as possible. Read
+more about [best practices for creating transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#best).
 
 ### Basic workflow for creating transcripts:
-
-{::nomarkdown}
-<%= sample_start %>
-{:/nomarkdown}
 
 1.  Write a brief summary of the subject matter.
 2.  Listen to the audio and transcribe all dialog and narration.
@@ -66,10 +58,7 @@ transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#bes
 6.  Transcribe any on-screen text (e.g., telephone numbers, URLs,
     credits, etc.).
 
-{::nomarkdown}
-<%= sample_end %>
-{:/nomarkdown}
-
+## Displaying a transcript
 
 Transcripts can be presented to users in a number of ways:
 
