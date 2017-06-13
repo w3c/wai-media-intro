@@ -1,6 +1,5 @@
 ---
-title: Caption formats and examples
-nav_title: Caption formats
+title: Caption formats
 order: 3
 status: editors-draft
 wcag_success_criteria:
@@ -15,70 +14,29 @@ contributors:
   - The Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
-## Caption formats
+Nearly all modern browsers and media players support displaying closed captions. However,
+they do not all support the same caption file formats. The most commonly used formats for online media are:
 
-Nearly all modern user agents (browsers, media players) on both desktop
-and mobile platforms provide support for the display of closed captions,
-but not all support the same caption-delivery formats. The three most
-common formats used for online media are listed below.
+-   [Web Video Text Tracks (WebVTT)](https://www.w3.org/TR/webvtt1/) <br>
+    Support in all modern browsers (Firefox, Internet Explorer 10+, Edge, Chrome, Safari, …), as well as many stand-alone players.
 
--   [Timed Text Markup Language
-    (TTML)](https://www.w3.org/TR/ttaf1-dfxp/)
--   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
--   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
+-   [Timed Text Markup Language (TTML)](https://www.w3.org/TR/ttaf1-dfxp/) <br>
+    Support only in Internet Explorer 10+ and Edge, as well as many stand-alone players. Streaming media services typically use TTML to convey captions to users.
 
-Captions can be displayed by most modern media players on desktop and mobile platforms, in standalone applications as well as in Web browsers:
+-   [SRT](https://matroska.org/technical/specs/subtitles/srt.html) <br>
+    SRT is not supported natively by any browser, but is supported by most
+    other types of media players including those provided by popular
+    video-hosting services, some social-media platforms and by custom
+    players.
 
--   Standalone players typically support WebVTT and/or TTML.
--   Streaming media services typically use TTML to convey captions to users.
--   Web browsers support various caption formats, as shown in the table below.
-
-
-<table>
-	<tr>
-		<th scope="col">Browser</th>
-		<th scope="col">OS</th>
-		<th scope="col">Supported caption format(s)</th>
-	</tr>
-	<tr>
-		<th scope="row">Firefox</th>
-		<td>Windows, OS X, Android, iOS</td>
-		<td>WebVTT</td>
-	</tr>
-	<tr>
-		<th scope="row">IE 10, 11; Edge</th>
-		<td>Windows</td>
-		<td>TTML, WebVTT</td>
-	</tr>
-	<tr>
-		<th scope="row">Safari</th>
-		<td>OS X; iOS</td>
-		<td>WebVTT</td>
-	</tr>
-	<tr>
-		<th scope="row">Chrome</th>
-		<td>Windows, OS X, Chrome OS, Android, iOS</td>
-		<td>WebVTT</td>
-	</tr>
-</table>
-
-SRT is not supported natively by any browser, but is supported by most
-other types of media players including those provided by popular
-video-hosting services, some social-media platforms and by custom
-players.
-
-WebVTT, TTML and SRT are "sidecar" files, which is to say they are
-transmitted separately from their corresponding video files (riding
-alongside the video data in the delivery stream, rather than being
-embedded directly into the video file), and are synchronized and
+WebVTT, TTML and SRT captions are files that are stored and loaded
+separately from their corresponding video files. They are synchronized and
 displayed by the user agent at the time of playback.
 
-## Delivering captions to viewers
+## Using Captions
 
-Captions are delivered to viewers using HTML5's `track` element, which
-was created specifically for carrying text tracks, such as captions,
-subtitles and [text-based audio descriptions](g). `track` is used as a
-child element of the `video` element:
+Captions are associated with videos using HTML5’s `<track>` element. It is used as a
+child of the `<video>` element:
 
 {::nomarkdown}
 <%= code_start %>
@@ -86,8 +44,8 @@ child element of the `video` element:
 
 ~~~html
 <video controls>
-    <source src="myvideo.mp4" type="video/mp4" />
-        <track kind="captions" src="myvideo_captions.vtt" srclang="en" label="Captions" default />
+    <source src="myvideo.mp4" type="video/mp4">
+        <track kind="captions" src="myvideo_captions.vtt" srclang="en" label="Captions" default>
 </video>
 ~~~
 
