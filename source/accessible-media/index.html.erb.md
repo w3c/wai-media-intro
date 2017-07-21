@@ -69,6 +69,6 @@ audiences:
 
 In some cases, captions and descriptions may be the only means by which users can access any information at all from video or audio clips.
 
-For a quick overview on determining whether or not captions and audio
+gFor a quick overview on determining whether or not captions and audio
 descriptions are necessary, see the [caption/description decision
 tree](decision-tree.html).
