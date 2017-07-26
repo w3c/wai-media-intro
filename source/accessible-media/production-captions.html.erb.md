@@ -117,8 +117,7 @@ captions:
     achieve a specific reading level). Fillers such as "um," "ah," etc.,
     can be deleted to save reading time unless doing so alters the
     representation of the speaker.
--   Do not censor: the captions should always accurately represent what
-    is spoken.
+-   Do not censor: captions should reflect the words that are spoken in the audio track.  If objectionable words are used in the audio, the captions should show those words.  If the audio is edited to obscure a specific word or phrase (e.g., "bleeped" audio), the captions should reflect the fact that a word or phrase has been obscured.
 
 {::nomarkup}
 <%= ref :end %>
