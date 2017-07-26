@@ -40,9 +40,7 @@ Captions and audio descriptions make online media accessible to people with disa
 
 ## What are high-quality captions and audio descriptions?
 
-In the same way that low-quality, incomplete audio is unacceptable to hearing viewers, low-quality captions-- those that do not accurately reflect the audio, or contain spelling and grammatical errors-- are unacceptable to deaf and hard-of-hearing viewers. Similarly, audio descriptions that provide misleading or inaccurate information, or
-which provide unnecessary detail (e.g., by giving away clues or
-answers), are of limited use to viewers who are blind or visually impaired.
+Hearing viewers find low-quality, incomplete audio content unacceptable. Similarly, captions that are inaccurate or contain spelling and grammatical errors are unacceptable to deaf and hard-of-hearing viewers. Audio descriptions that provide misleading or inaccurate information, or which provide unnecessary detail (e.g., by giving away clues or answers), are of limited use to viewers who are blind or visually impaired.
 
 ## Why is this important?
 
