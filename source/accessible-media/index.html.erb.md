@@ -47,7 +47,7 @@ answers), are of limited use to viewers who are blind or visually impaired.
 
 ## Why is this important?
 
-Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind or visually impaired, captions and descriptions have benefits beyond their original target
+Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind or visually impaired, captions and audio descriptions have benefits beyond their original target
 audiences:
 
 -   Both captions and descriptions can be used to help all viewers, especially those with cognitive disabilities, engage more directly with media, helping to focus attention or to provide comprehension support.
