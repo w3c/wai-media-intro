@@ -34,7 +34,7 @@ Captions and audio descriptions make online media accessible to people with disa
     interactive documents. Interactive transcripts can be synchronized to the media: words are highlighted automatically as they are spoken, or
     users can select words to move to that spot in the
     video.
--   [**Audio descriptions**](production-audio-description.html) are an extra track of narration that conveys
+-   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys
     information about important visuals, such as body
     language, changes in scenery and context, charts and
     diagrams.
