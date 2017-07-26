@@ -32,7 +32,7 @@ Additionally...
 
 -   Audio descriptions are usually timed to play during pauses or breaks
     in narration or dialog, although [extended audio
-    descriptions](#ext_dx) may be implemented where necessary.
+    descriptions](#extended-descriptions) may be implemented where necessary.
 -   In cases where no pauses are available, a single summary, called a
     pre-description, can be inserted at the beginning of the
     presentation.
