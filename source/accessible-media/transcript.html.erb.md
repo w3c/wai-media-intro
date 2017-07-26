@@ -22,8 +22,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 A transcript is a textual version of a program's audio track. They have
 a wide variety of uses:
 
--   Users can quickly scan a transcript to learn about a video's subject
-    matter prior to watching the video.
+-   Users can quickly scan a transcript to learn about a video- or audio-file's subject matter prior to watching or listening to the media.
 -   Transcripts can be easily searched.
 -   Transcripts can be printed or converted to braille, or can be read
     offline on any desktop or mobile device.
@@ -31,7 +30,7 @@ a wide variety of uses:
 
 Transcripts can be static documents or they can be interactive: e.g.,
 words can be highlighted automatically as they are spoken, or words can
-selected by the user in order to move to that spot in the video.
+be selected by the user in order to move to that spot in the video.
 
 [![An example of an interactive transcript.](xcr_perspectives.png)](https://www.w3.org/WAI/perspectives/keyboard.html)
 
