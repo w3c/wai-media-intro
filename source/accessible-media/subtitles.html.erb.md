@@ -33,7 +33,7 @@ And, as with captions, they can be open or closed:
 
 -   **Closed subtitles** can be hidden and revealed by users, typically
     by operating a button or menu on the player's control bar.
--   **Open subtitles** are visible to everyone and cannot be turned off.
+-   **Open subtitles** are continually displayed and cannot be turned off.
 
 In instances where subtitles cannot be presented using true text, they
 can instead be presented as bitmaps: in other words, pictures of text or
