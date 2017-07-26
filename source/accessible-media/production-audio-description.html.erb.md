@@ -194,4 +194,3 @@ The importance of presenting users with high-quality, accurate descriptions cann
 
 -  [<abbr title="Described and Captioned Media Program">DCMP</abbr> Description Key](http://www.descriptionkey.org/how_to_describe.html)
 -  [<abbr title="Described and Captioned Media Program">DCMP</abbr> Description Tip Sheet](https://www.dcmp.org/ai/227/)
--  [Accessible Multimedia whitepaper](http://diagramcenter.org/research.html#multimedia)
