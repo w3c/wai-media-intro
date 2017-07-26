@@ -77,7 +77,7 @@ displayed by the user agent at the time of playback.
 
 Captions are delivered to viewers using HTML5's `track` element, which
 was created specifically for carrying text tracks, such as captions,
-subtitles and [text-based audio descriptions](g). `track` is used as a
+subtitles and [text-based audio descriptions](production-audio-description.html). `track` is used as a
 child element of the `video` element:
 
 {::nomarkdown}
