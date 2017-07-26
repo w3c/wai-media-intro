@@ -79,7 +79,7 @@ pre-produced video and audio clips.
     captions will only make it harder for viewers to follow what is
     happening on-screen.
 5.  **Export a caption file**<br>
-    Export the captions in the target format. See [caption formats and
+    Export the captions in the target format so they can be synchronized with the media, or provided as a transcript. See [caption formats and
     examples](formats.html) for more information.
 
 {::nomarkdown}
