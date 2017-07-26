@@ -27,6 +27,8 @@ common formats used for online media are listed below.
 -   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
 -   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
 
+TTML and WebVTT contain a full array of markup for styling, timing and placement options.  SRT is a bare-bones format that displays unstyled text only, although some user agents may support basic styling commands (such as bold or italic text) if they are present in the caption file.
+
 Captions can be displayed by most modern media players on desktop and mobile platforms, in standalone applications as well as in Web browsers:
 
 -   Standalone players typically support WebVTT and/or TTML.
