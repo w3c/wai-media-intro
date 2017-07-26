@@ -88,7 +88,7 @@ pre-produced video and audio clips.
 
 
 Below is an image of a caption editor showing how captions have been
-formatted and timestamped.
+formatted and timestamped. Each caption is assigned a start/display time. In this editor, captions that are not assigned end/erase times will simply be replaced when the next caption displays.
 
 ![A caption editor showing timestamped caption text.](timecodes.png)
 
