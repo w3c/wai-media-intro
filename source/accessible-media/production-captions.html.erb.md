@@ -66,7 +66,7 @@ pre-produced video and audio clips.
 
 1.  **Enter caption text into the editor**<br>
     Transcribe the audio directly into the caption editor or, if
-    available, import a transcript.
+    available, import a transcript that has been prepared ahead of time using a text editor.
 2.  **Edit and break text into captions**<br>
     Edit for proper spelling and grammar; divide the text into caption
     blocks.
