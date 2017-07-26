@@ -1,6 +1,5 @@
 ---
-title: Subtitle concepts and examples
-nav_title: Subtitles
+title: Subtitles
 order: 5
 status: editors-draft
 wcag_success_criteria:
@@ -15,25 +14,11 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
 
-## Subtitle basics
-
 Subtitles (also known as foreign-language subtitles) are, from a
 technical perspective, similar to captions: they are text (or sometimes
 images of text) presented through markup that contains timing
 information and positioning codes. They can be created using the same
-authoring tools as captions, and they can also be delivered using the
-same basic timed-text markup formats:
-
--   [Timed Text Markup Language
-    (TTML)](https://www.w3.org/TR/ttaf1-dfxp/)
--   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
--   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
-
-And, as with captions, they can be open or closed:
-
--   **Closed subtitles** can be hidden and revealed by users, typically
-    by operating a button or menu on the player's control bar.
--   **Open subtitles** are visible to everyone and cannot be turned off.
+authoring tools and [formats as captions](formats.html). They can be provided in an [open or closed](index.html#open-closed) way.
 
 In instances where subtitles cannot be presented using true text, they
 can instead be presented as bitmaps: in other words, pictures of text or
@@ -44,33 +29,17 @@ Captions 1.0 (IMSC1)](https://www.w3.org/TR/ttml-imsc1/). Keep in mind that bitm
 ## Differences between subtitles and captions
 
 Subtitles are not the same as captions, nor are they aimed at the same
-audiences. Here are some of the basic differences.
+audiences. In contrast to captions, subtitles are…
 
-<table>
-	<tr>
-		<th scope="col">Subtitles</th>
-		<th scope="col">Captions</th>
-	</tr>
-	<tr>
-		<td>Intended for people who can hear</td>
-		<td>Intended for people who are deaf or hard of hearing</td>
-	</tr><tr>
-		<td>Translation of the audio</td>
-		<td>Same language as the audio</td>
-	</tr><tr>
-		<td>Do not contain non-speech information<br>
-		(indications of music, sound effects, etc.)</td>
-		<td>Contain non-speech information</td>
-	</tr><tr>
-		<td>Not positioned to convey who is speaking</td>
-		<td>Often positioned to indicate who is speaking</td>
-	</tr>
-</table>
+* … intended for people who can hear;
+* … translations of the audio;
+* … not containing non-speech information (indications of music, sound effects, etc.);
+* … not positioned to convey who is speaking.
 
-##Delivering subtitles to viewers
+## Displaying Subtitles
 
-Subtitles are delivered to viewers using HTML5's `<track>` element.
-`<track>` is used as a child element of the `<video>` element. Be sure
+Like captions, subtitles are delivered to viewers using HTML5's `<track>` element.
+Be sure
 to set the value of the `kind` attribute to `"subtitles"` and to specify
 the language in the `label` attribute:
 
@@ -80,8 +49,8 @@ the language in the `label` attribute:
 
 ~~~html
 <video controls>
-    <source src="myvideo.mp4" type="video/mp4" />
-    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="en" label="Italian" default />
+    <source src="myvideo.mp4" type="video/mp4">
+    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="en" label="Italian" default>
 </video>
 ~~~
 
