@@ -20,7 +20,6 @@ contributors:
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
 Captions and audio descriptions make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions and audio descriptions to online media. In addition to captions and audio descriptions, other techniques, such as transcripts and foreign-language subtitles are available to ensure more accessible media.
-{:#cc+ad_purpose}
 
 -   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
     or other spoken words. They are synchronized with the program audio and
