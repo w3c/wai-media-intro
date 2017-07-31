@@ -24,9 +24,9 @@ information and positioning codes. They can be created using the same
 authoring tools as captions, and they can also be delivered using the
 same basic timed-text markup formats:
 
+-   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
 -   [Timed Text Markup Language
     (TTML)](https://www.w3.org/TR/ttaf1-dfxp/)
--   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
 -   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
 
 And, as with captions, they can be open or closed:
@@ -39,7 +39,7 @@ In instances where subtitles cannot be presented using true text, they
 can instead be presented as bitmaps: in other words, pictures of text or
 other symbols. The bitmaps themselves can still be transmitted using
 markup, though, by using [TTML Profiles for Internet Media Subtitles and
-Captions 1.0 (IMSC1)](https://www.w3.org/TR/ttml-imsc1/). Keep in mind that bitmap captions cannot be customized, which may diminish their usefulness to viewers with certain types of visual impairments.  Learn more about [why caption customization is important](production-captions.html#custom_cc).
+Captions 1.0 (IMSC1)](https://www.w3.org/TR/ttml-imsc1/). Bitmap subtitles/captions cannot be customized by users, which may diminish their usefulness to viewers with certain types of visual impairments.  Learn more about [why caption customization is important](production-captions.html#custom_cc).
 
 ## Differences between subtitles and captions
 
@@ -62,7 +62,7 @@ audiences. Here are some of the basic differences.
 		(indications of music, sound effects, etc.)</td>
 		<td>Contain non-speech information</td>
 	</tr><tr>
-		<td>Not positioned to convey who is speaking</td>
+		<td>Not positioned to indicate who is speaking</td>
 		<td>Often positioned to indicate who is speaking</td>
 	</tr>
 </table>
