@@ -19,7 +19,7 @@ contributors:
   - The Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
-Captions and audio descriptions make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions and audio descriptions to online media. In addition to captions and audio descriptions, other techniques, such as transcripts and foreign-language subtitles are available to ensure more accessible media.
+Captions, audio descriptions and transcripts make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions, audio descriptions and transcripts to video and audio clips. Other accessibility approaches, such as the inclusion of foreign-language subtitles, are also described.
 
 -   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
     or other spoken words. They are synchronized with the program audio and
@@ -32,7 +32,7 @@ Captions and audio descriptions make online media accessible to people with disa
     speaker-identification cues. Transcripts can be static or
     interactive documents. Interactive transcripts can be synchronized to the media: words are highlighted automatically as they are spoken, or
     users can select words to move to that spot in the
-    video.
+    video.  Transcripts are crucial for users who are deaf-blind, or for any user who relies on braille.
 -   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys
     information about important visuals, such as body
     language, changes in scenery and context, charts and
@@ -44,7 +44,7 @@ Hearing viewers find low-quality, incomplete audio content unacceptable. Similar
 
 ## Why is this important?
 
-Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind or visually impaired, captions and audio descriptions have benefits beyond their original target
+Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind, visually impaired or deaf-blind, captions, audio descriptions and transcripts have benefits beyond their original target
 audiences:
 
 -   Both captions and descriptions can be used to help all viewers, especially those with cognitive disabilities, engage more directly with media, helping to focus attention or to provide comprehension support.
