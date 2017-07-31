@@ -36,7 +36,7 @@ results in poor-quality captions that often contain…
 
 **Automatically generated captions should never be used as the sole
 method to produce captions.** However, they can be used as a first-pass
-or rough-draft effort in the workflow to create an [accurate,
+or rough-draft effort in the workflow that eventually leads to an [accurate,
 high-quality caption track](production-captions.html). Below is a sample workflow for
 using auto-captions as part of the caption-production process, using
 YouTube's auto-caption service as an example.
