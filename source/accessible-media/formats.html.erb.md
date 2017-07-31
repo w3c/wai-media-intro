@@ -1,5 +1,5 @@
 ---
-title: Caption formats and examples
+title: Caption Formats and Examples
 nav_title: Caption formats
 order: 3
 status: editors-draft
