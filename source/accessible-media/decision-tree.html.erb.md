@@ -1,5 +1,5 @@
 ---
-title: Captions and descriptions decision trees
+title: Captions and Descriptions Decision Trees
 nav_title: Decision Trees
 order: 9
 status: editors-draft
