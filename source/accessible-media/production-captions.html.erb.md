@@ -183,12 +183,6 @@ The genome is a storybook that's been edited<br />
 <%= code_end %>
 {:/nomarkdown}
 
-### Automatically generated captions
-
-Automatically generated captions should **never** be used as the sole
-method to produce captions, but they can be a part of the production
-workflow. See the [discussion about automatic captions](automatically-generated-captions.html) for
-more information.
 
 ## Resources for writing quality captions
 
