@@ -77,8 +77,8 @@ Transcripts can be presented to users in a number of ways:
 -   [integrated into the same Web page as the
     video](https://www.commoncraft.com/video/rss);
 -   [as an interactive
-    transcript](http://www.nytimes.com/interactive/2012/01/24/us/politics/state-of-the-union-2012-video-transcript.html#)
-    that can be used as a method to navigate through a video clip.
+    transcript](https://www.w3.org/WAI/perspectives/contrast.html)
+    that can be used as a method to navigate through a video clip (select the transcript button on the player to reveal the transcript).
 
 Here's an example of markup that could be used to present a transcript
 of a simple interview (one host, one guest):
