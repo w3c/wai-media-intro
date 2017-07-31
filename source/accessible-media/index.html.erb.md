@@ -24,12 +24,12 @@ Captions, audio descriptions and transcripts make online media accessible to peo
 -   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
     or other spoken words. They are synchronized with the program audio and
     displayed within the media player. Captions also include text identifying non-speech information, such as music and sound effects.
--   [**Subtitles**](subtitles.html) are a synchronized textual version of a media’s audio track,
+-   [**Subtitles**](subtitles.html) are a synchronized text version of a media’s audio track,
     translated into another language.
 -   [**Transcripts**](transcript.html) are a text version of a video’s audio track,
     containing narration, dialog and non-speech information such as
     speaker-identification cues. Transcripts can be static or
-    interactive documents. Interactive transcripts can be synchronized to the media: words are highlighted automatically as they are spoken, or
+    interactive documents. Interactive transcripts can be synchronized with the media: words are highlighted automatically as they are spoken, or
     users can select words to move to that spot in the
     video.  Transcripts are crucial for users who are deaf-blind, or for any user who relies on braille.
 -   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys
@@ -46,13 +46,13 @@ Hearing viewers find low-quality, incomplete audio content unacceptable. Similar
 Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind, visually impaired or deaf-blind, captions, audio descriptions and transcripts have benefits beyond their original target
 audiences:
 
--   Both captions and descriptions can be used to help all viewers, especially those with cognitive disabilities, engage more directly with media, helping to focus attention or to provide comprehension support.
+-   Captions, descriptions and transcripts can be used to help all viewers, especially those with cognitive disabilities, engage more directly with media, helping to focus attention or to provide comprehension support.
 -   Captions are useful when teaching children and adults how to read,
-    or to enable people learn a foreign language.
+    or to help people learn a foreign language.
 -   Everyone can use captions in noisy
     environments such as a bar, an airport lounge, or in any place
     where it would be inappropriate to turn up the volume.
--   Search engines can use captions as a way to locate information in media.
+-   Search engines can use captions and transcripts as a way to locate information in media.
 -   Audio descriptions can reinforce complex visual concepts, which is
     especially useful for children or adults with learning disabilities.
 
