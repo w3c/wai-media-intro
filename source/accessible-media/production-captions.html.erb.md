@@ -28,7 +28,7 @@ There are three ways to present captions to viewers:
 
 -   **Pop-on captions** appear in discrete blocks and usually
     contain one to three rows of text. They are normally created for
-    pre-produced material, and used in the majority of captioned
+    pre-produced material, and used for the majority of captioned
     online videos.
 
     Example:<br>
@@ -39,7 +39,7 @@ There are three ways to present captions to viewers:
 
     Example:<br>
     [![An example of roll-up captions.](roll-up.png)](http://ncamftp.wgbh.org/sp/wai/roll-up_cc.mp4)
--   **Paint-on captions** are text that appears to “paint” onto the screen, one character at a time, as the data is received. Typically, when one row of captions finishes painting onto the screen, the row scrolls up and a new row begins paint onto the screen.
+-   **Paint-on captions** are text that appears to quickly unfurl onto the screen, one character at a time, as the data are received. Typically, when one row of captions finishes painting onto the screen, the row scrolls up and a new row begins paint onto the screen.
 
     Example:<br>
     [![An example of paint-on captions.](paint-on.png)](http://ncamftp.wgbh.org/sp/wai/paint-on_cc.mp4)
@@ -48,7 +48,7 @@ There are three ways to present captions to viewers:
 <%= notes_start %>
 {:/nomarkdown}
 
-**Note:** If a video has no narration or dialog, inform viewers about it, so they do not think that captions are
+**Note:** If a video has no narration or dialog, inform viewers about this so they do not think that captions are
 missing from the video. Provide a brief
 caption at the beginning of the video that indicates that no
 audio is provided.
@@ -59,10 +59,8 @@ audio is provided.
 
 ## Production workflow for pre-produced captions
 
-Captions are text presented on specified tiems thriughout a video.
-A caption file contains timing information and positioning codes. There are
-a variety of do-it-yourself tools available for creating captions for
-pre-produced video and audio clips.
+A typical caption file contains timing information and positioning codes in addition the text representing the audio track. Timing information indicates when each caption should appear or disappear from the screen; positioning codes indicate where on the screen the captions should appear.  There are
+a variety of do-it-yourself tools available for creating captions for pre-produced video and audio clips.
 
 ### Basic workflow for creating pre-produced captions:
 
@@ -80,12 +78,12 @@ pre-produced video and audio clips.
     Assign a timecode to each caption that indicates when it will appear
     or disappear from the screen.
 4.  **Review the captions**<br>
-    Watch the captioned video carefully and eliminate any errors.
+    Watch the captioned video carefully and eliminate any errors in text, timing and positioning.
     Accuracy is paramount: misspelled or poorly edited and timed
     captions will only make it harder for viewers to follow what is
     happening on-screen.
 5.  **Export a caption file**<br>
-    Export the captions in the target format so they can be synchronized with the media, or provided as a transcript. See [caption formats and
+    Export the captions in the player-specific target format so they can be synchronized with the media, or provided as a transcript. See [caption formats and
     examples](formats.html) for more information.
 
 {::nomarkdown}
@@ -104,8 +102,6 @@ formatted and timestamped. Each caption is assigned a start/display time. In thi
 <%= ref :start %>
 {:/nomarkup}
 
-See [resources for writing quality captions](#resources-for-writing-quality-captions) for more
-information.
 
 {::nomarkup}
 <%= ref :middle %>
@@ -125,26 +121,29 @@ captions:
     representation of the speaker.
 -   Do not censor: captions should reflect the words that are spoken in the audio track.  If objectionable words are used in the audio, the captions should show those words.  If the audio is edited to obscure a specific word or phrase (e.g., "bleeped" audio), the captions should reflect the fact that a word or phrase has been obscured.
 
+See [resources for writing quality captions](#resources-for-writing-quality-captions) for more
+information.
+
 {::nomarkup}
 <%= ref :end %>
 {:/nomarkup}
 
 ### Styling captions
 
-Most caption-creation tools let authors style captions in a number of ways: e.g., adding color to the text or background, specifying different font faces and sizes. While it is possible to add styling information, support in browsers and other media players varies. If the media is produced for a specific player, style the captions to that player’s capabilities.  Otherwise, rely instead on a player’s default presentation style (usually white characters on a black box).
+Most caption-creation tools let authors style captions in a number of ways: e.g., adding color to the text or background, specifying different font faces and sizes. However, support in browsers and other media players for styling information is inconsistent and is at times unreliable. If the media is being produced for a specific player, style the captions to that player’s capabilities.  Otherwise, rely instead on a player’s default presentation style (usually white characters on a black box).
 
 {::nomarkdown}
 <%= notes_start %>
 {:/nomarkdown}
 
-**Note:** Many media players give users the option to [customize captions to meet their personal preferences](playing.html#user-customization-of-captions). These preferences always override author styling. For some users, customizing captions is essential, not just an enhancement: styling captions in specific manners (for example, yellow text over a black background, with a very large font size) may be the only way for them to make the text readable.
-{:#cutom_cc}
+Many media players give users the option to [customize captions to meet their personal preferences](playing.html#user-customization-of-captions). These preferences always override author styling. For some users, customizing captions is essential, not just an enhancement: styling captions in a specific manner (for example, yellow text over a black background, with a very large font size) may be the only way for them to make the text readable.
+{:#custom_cc}
 
 {::nomarkdown}
 <%= notes_end %>
 {:/nomarkdown}
 
-Below is an image showing bold and italic text added to captions in a
+Below is an image showing bold text added to captions in a
 caption-authoring tool.
 
 ![A caption editor showing white caption text on a black background. One
