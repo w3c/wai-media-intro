@@ -1,5 +1,5 @@
 ---
-title: Playing accessible media
+title: Playing Accessible Media
 nav_title: Playing media
 order: 8
 status: editors-draft
@@ -22,10 +22,10 @@ All modern Web browsers will provide default media players for embedded
 media when they detect the `video` or `audio` elements, and all will
 render timed text delivered via the `track` element. All browsers will
 automatically surface a caption toggle in the player control bar if a
-caption track is detected. However, note that each browser will present
+caption track is detected. Note that each browser will present
 not only a different UI, but also a different default style for
 captions. Below is an image of default caption display in Chrome,
-showing the CC button for toggling captions on and off.
+showing the CC (closed-caption) button for toggling captions on and off.
 
 ![Captions playing in the embedded Chrome video
 player.](am-chrome-captions.png)
@@ -66,7 +66,7 @@ operating system, the settings chosen by the user will override any
 author-specified styling characteristics (see further [comments about
 author styling of captions](production-captions.html#a-word-about-styling-captions)).
 
-Below is an image showing caption-styling options in the YouTube desktop
+Below is an image showing caption-styling options in a desktop
 player.
 
 ![YouTube's caption-styling options: font family, font color, font size,
@@ -75,7 +75,7 @@ and others.](yt_cc_options.png)
 Some custom mobile players-- those embedded in Web pages as well as
 stand-alone media players-- also provide styling options from within the
 applications themselves. See the [mobile player used on the CNN Web
-site](http://www.cnn.com/) for one such example.
+site](http://www.cnn.com/videos) for one such example; play a video and press the CC button on the player to see captions.
 
 Mobile devices also provide caption-styling options at the OS level.
 Here is an image showing caption styling options on an Android device.
