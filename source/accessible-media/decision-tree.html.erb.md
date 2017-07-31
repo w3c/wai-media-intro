@@ -62,10 +62,8 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 			_Provide audio descriptions for all prerecorded video content in synchronized media. See [SC 1.2.5](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html)._
 		-   **… and the audio does not provide sufficient information about important visual elements.**
     	_Provide audio descriptions where necessary.  See [SC 1.2.5](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-audio-desc-only.html)._
-		-   **… and pauses in the dialog or narration are available but insufficient to accommodate complete descriptions.**
-    	_Provide extended descriptions. See [SC 1.2.7](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html)._
-		-   **… and no pauses are available.**
-    	_Provide extended descriptions; see [SC 1.2.7](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html).  Or provide a pre-description; see [production options for descriptions](production-audio-description.html)._
+		-   **… and pauses in the dialog or narration are available but insufficient to accommodate complete descriptions, or no pauses are available.**
+    	_Provide extended descriptions. See [SC 1.2.7](https://www.w3.org/TR/UNDERSTANDING-WCAG20/media-equiv-extended-ad.html). Or provide a pre-description; see [production options for descriptions](production-audio-description.html)._
 	-   {:.no} **No:**
 		- Continue.
 -   **If there are no important visual elements in the media, descriptions are not necessary.**
