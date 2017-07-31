@@ -30,6 +30,8 @@ showing the CC button for toggling captions on and off.
 ![Captions playing in the embedded Chrome video
 player.](am-chrome-captions.png)
 
+While browser-native players do not provide support for integrated transcriptions, some third-party embedded players (for example, YouTube and Able Player) will surface a button which, when selected, reveals a transcript if one is available.
+
 ### Mobile-browser video players
 
 Mobile browsers support captions via the `track` element, just like
