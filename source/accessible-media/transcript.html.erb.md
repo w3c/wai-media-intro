@@ -19,8 +19,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 
 ## Transcript basics
 
-A transcript is a textual version of a program's audio track. They have
-a wide variety of uses:
+At a minimum, a transcript is a textual version of a program's audio track. For maximum accessibility, however, a full transcript-- one that includes a textual representation of the audio as well as descriptions of important on-screen action or cues-- should be made available to users.  Transcripts have a wide variety of uses:
 
 -   Users can quickly scan a transcript to learn about a video- or audio-file's subject matter prior to watching or listening to the media.
 -   Transcripts can be easily searched.
@@ -61,7 +60,7 @@ transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#bes
 3.  Identify each time the speaker changes.
 4.  Include relevant non-speech information (e.g., sound effects,
     audience laughter).
-5.  Include descriptions of important on-screen action or evens.
+5.  Include descriptions of important on-screen action or events.  If the media contains an audio-description track, transcribe and integrate the descriptions into the full transcript.
 6.  Transcribe any on-screen text (e.g., telephone numbers, URLs,
     credits, etc.).
 
