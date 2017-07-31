@@ -1,5 +1,5 @@
 ---
-title: Automatically generated captions
+title: Automatically Generated Captions
 nav_title: Automatic Captions
 order: 4
 status: editors-draft
