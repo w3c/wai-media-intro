@@ -1,5 +1,5 @@
 ---
-title: Transcript Concepts and Examples
+title: Transcripts
 nav_title: Transcripts
 order: 6
 status: editors-draft
@@ -37,15 +37,14 @@ be selected by the user in order to move to that spot in the video.
 
 Most caption-editing tools provide an option to export a plain-text
 transcript (that is, one that is stripped of all timing, positioning and
-other markup). This text file can then be formatted for accessible
-presentation. Transcripts can also be created by simply listening to a
+other markup). Transcripts can also be created by simply listening to a
 program's audio track and typing text into any word processor or text
 editor.
 
 HTML is the most accessible format for transcript presentation. As with
 any Web page, an accessible transcript should be marked up with
 headings, links, landmark roles, lists and other structure in order to
-make navigation as efficient as possible. This also helps with SEO. Read
+make navigation as efficient as possible. Read
 more about [best practices for creating
 transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#best).
 
