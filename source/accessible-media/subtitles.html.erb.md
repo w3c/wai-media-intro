@@ -1,5 +1,5 @@
 ---
-title: Subtitle concepts and examples
+title: Subtitle Concepts and Examples
 nav_title: Subtitles
 order: 5
 status: editors-draft
