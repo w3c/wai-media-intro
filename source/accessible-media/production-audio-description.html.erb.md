@@ -1,5 +1,5 @@
 ---
-title: Production options for audio descriptions
+title: Production Options for Audio Descriptions
 nav_title: Audio descriptions
 order: 7
 status: editors-draft
