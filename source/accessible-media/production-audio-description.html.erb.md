@@ -22,7 +22,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 
 ## Description basics
 
-Audio descriptions can be open or closed:
+Audio descriptions are an extra track of narration (audio or text) that conveys information about important visuals, such as body language, changes in scenery and context, charts and diagrams.  Audio descriptions can be open or closed:
 
 -   **Open audio descriptions** are integrated into the program audio
     track and are heard by everyone. They cannot be turned off.
@@ -126,7 +126,7 @@ highest-quality audio files possible. Keep these points in mind:
     program-audio level to its proper setting. Repeat this process
     (known as "ducking") for every description instance.
 
-## Production workflow: audio descriptions (TTS narration)
+## Producing TTS audio descriptions
 
 TTS descriptions are not pre-recorded. Instead, they are transmitted at
 the proper intervals to users during playback, and are read aloud by the
@@ -145,7 +145,7 @@ for TTS audio descriptions generally follows this pattern:
     Note opportunities for descriptive narration (i.e., pauses in
     narration or dialog into which descriptions can be inserted).
 2. **Write the description script**<br>
-    Using a **caption-editing tool**, write the description script that
+    Using a caption-editing tool, write the description script that
     will be read aloud by a screen reader during the time of playback.
 3. **Assign timecodes to each description**<br>
     Each timecode will represent when the description should be read by
@@ -163,7 +163,7 @@ Below is an image of a caption editor being used to timestamp an audio-descripti
 
 ![A caption editor showing a timestamped description script.](dx_script.png)
 
-<p>Using the <code>track</code> element and the <code><a href="https://html.spec.whatwg.org/multipage/embedded-content.html#text-track-kind">kind</a></code> attribute, the descriptions can be delivered at the time of playback and a screen reader will read them aloud. Below is a code sample:</p>
+<p>Using the <code>track</code> element and the <code><a href="https://www.w3.org/TR/html51/semantics-embedded-content.html#the-track-element">kind</a></code> attribute, the descriptions can be delivered at the time of playback and a screen reader will read them aloud. Below is a code sample:</p>
 
 {::nomarkdown}
 <%= code_start %>
@@ -180,7 +180,7 @@ Below is an image of a caption editor being used to timestamp an audio-descripti
 <%= code_end %>
 {:/nomarkdown}
 
-The `kind` attribute will cause the description file to be received invisibly (e.g., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about [techniques for delivering TTS descriptions](https://www.w3.org/WAI/GL/wiki/Using_the_track_element_to_provide_audio_descriptions). See [functioning examples of TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/#videos) using the `track` element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.
+The `kind` attribute will cause the description file to be received invisibly (e.g., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about [techniques for delivering TTS descriptions](https://www.w3.org/TR/WCAG20-TECHS/H96.html). See [functioning examples of TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/#videos) using the `track` element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.
 
 ## Extended descriptions
 
