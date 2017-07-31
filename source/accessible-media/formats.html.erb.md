@@ -1,5 +1,5 @@
 ---
-title: Caption Formats and Examples
+title: Caption Formats
 nav_title: Caption formats
 order: 3
 status: editors-draft
@@ -15,16 +15,12 @@ contributors:
   - The Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
-## Caption formats
 
-Nearly all modern user agents (browsers, media players) on both desktop
-and mobile platforms provide support for the display of closed captions,
-but not all support the same caption-delivery formats. The three most
-common formats used for online media are listed below.
+Nearly all modern browsers and media players support the display of closed captions.  However, they do not all support the same caption-file formats. The most commonly used formats used for online media are:
 
+-   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
 -   [Timed Text Markup Language
     (TTML)](https://www.w3.org/TR/ttaf1-dfxp/)
--   [Web Video Text Tracks (WebVTT)](https://w3c.github.io/webvtt/)
 -   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
 
 TTML and WebVTT contain a full array of markup for styling, timing and placement options.  SRT is a bare-bones format that displays unstyled text only, although some user agents may support basic styling commands (such as bold or italic text) if they are present in the caption file.
@@ -92,6 +88,8 @@ child element of the `video` element:
         <track kind="captions" src="myvideo_captions.vtt" srclang="en" label="Captions" default />
 </video>
 ~~~
+
+In the example above, the `kind` attribute is set to "captions" to identify what type of text track it is.  The `label` attribute is set to "Caption," which is the visible text (or label) that the user agent will display to identify the track to the user. [Learn more about attributes for the `track` element](https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-track-element).
 
 {::nomarkdown}
 <%= code_end %>
