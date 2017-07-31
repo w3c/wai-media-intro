@@ -20,8 +20,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 
 All modern Web browsers will provide default media players for embedded
 media when they detect the `video` or `audio` elements, and all will
-render timed text delivered via the `track` element. All browsers will
-automatically surface a caption toggle in the player control bar if a
+render timed text delivered via the `track` element. Browsers will also automatically surface a caption toggle in the player control bar if a
 caption track is detected. Note that each browser will present
 not only a different UI, but also a different default style for
 captions. Below is an image of default caption display in Chrome,
@@ -30,7 +29,7 @@ showing the CC (closed-caption) button for toggling captions on and off.
 ![Captions playing in the embedded Chrome video
 player.](am-chrome-captions.png)
 
-While browser-native players do not provide support for integrated transcriptions, some third-party embedded players (for example, YouTube and Able Player) will surface a button which, when selected, reveals a transcript if one is available.
+While browser-native players do not provide support for integrated transcripts, some third-party embedded players (for example, YouTube and Able Player) will surface a button which, when selected, reveals a transcript if one is available.
 
 ### Mobile-browser video players
 
@@ -42,7 +41,7 @@ their desktop counterparts, but the presentation mode will vary:
     Chrome and Firefox, on tablets and smartphones.
 -   **iOS**<br>
     Embedded video and audio clips will play within Web pages on the
-    iPad. iPhones will play all media clips using the QuickTime player.
+    iPad. iPhones will play all media clips using the QuickTime player, separately from the browser.
 
 ## Audio descriptions in native desktop- and mobile-browser media players
 
@@ -75,7 +74,7 @@ and others.](yt_cc_options.png)
 Some custom mobile players-- those embedded in Web pages as well as
 stand-alone media players-- also provide styling options from within the
 applications themselves. See the [mobile player used on the CNN Web
-site](http://www.cnn.com/videos) for one such example; play a video and press the CC button on the player to see captions.
+site](http://www.cnn.com/videos) for one such example (play a video and press the CC button on the player to see captions).
 
 Mobile devices also provide caption-styling options at the OS level.
 Here is an image showing caption styling options on an Android device.
