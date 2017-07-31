@@ -23,8 +23,7 @@ Captions, audio descriptions and transcripts make online media accessible to peo
 
 -   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
     or other spoken words. They are synchronized with the program audio and
-    displayed within the media player. Include text
-    identifying audible non-speech information, such as music and sound effects.
+    displayed within the media player. Captions also include text identifying non-speech information, such as music and sound effects.
 -   [**Subtitles**](subtitles.html) are a synchronized textual version of a media’s audio track,
     translated into another language.
 -   [**Transcripts**](transcript.html) are a text version of a video’s audio track,
