@@ -111,7 +111,7 @@ Project](http://www.acb.org/adp/).
 {:/nomarkdown}
 
 
-When recording the descriptions, it will pay to create the
+When recording the descriptions, create the
 highest-quality audio files possible. Keep these points in mind:
 
 -   Use the highest-quality microphone and recording software available.
@@ -129,7 +129,7 @@ highest-quality audio files possible. Keep these points in mind:
 ## Producing TTS audio descriptions
 
 TTS descriptions are not pre-recorded. Instead, they are transmitted at
-the proper intervals to users during playback, and are read aloud by the
+the appropriate intervals to users during playback, and are read aloud by the
 user's screen reader. Think of them as an invisible text track that
 screen readers can read aloud as the text is delivered. See [examples of
 TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/). The basic workflow
@@ -180,7 +180,7 @@ Below is an image of a caption editor being used to timestamp an audio-descripti
 <%= code_end %>
 {:/nomarkdown}
 
-The `kind` attribute will cause the description file to be received invisibly (e.g., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about [techniques for delivering TTS descriptions](https://www.w3.org/TR/WCAG20-TECHS/H96.html). See [functioning examples of TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/#videos) using the `track` element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.
+The `kind` attribute will cause the description file to be received invisibly (i.e., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about [techniques for delivering TTS descriptions](https://www.w3.org/TR/WCAG20-TECHS/H96.html). See [functioning examples of TTS descriptions](http://ncamftp.wgbh.org/ibm/dvs/#videos) using the `track` element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.
 
 ## Extended descriptions
 
