@@ -45,7 +45,7 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
       _An alternative is not required._
 	-   {:.no} **No:**
 		- Continue.
-- **See the previous two items.**
+- **If the media does not contain dialog, narration or non-speech audio elements, captions are not necessary.**
 {:.decision-tree}
 
 ## Audio descriptions
