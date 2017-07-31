@@ -19,16 +19,15 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 
 ## Transcript basics
 
-At a minimum, a transcript is a textual version of a program's audio track. For maximum accessibility, however, a full transcript-- one that includes a textual representation of the audio as well as descriptions of important on-screen action or cues-- should be made available to users.  Transcripts have a wide variety of uses:
+At a minimum, a transcript is a text version of a program's audio track. For maximum accessibility, however, a full transcript-- one that includes a text representation of the audio as well as descriptions of important on-screen action or cues-- should be made available to users.  Transcripts have a wide variety of uses:
 
 -   Users can quickly scan a transcript to learn about a video- or audio-file's subject matter prior to watching or listening to the media.
 -   Transcripts can be easily searched.
--   Transcripts can be printed or converted to braille, or can be read
-    offline on any desktop or mobile device.
--   They can be used as a basis for foreign-language translations.
+-   Transcripts can be printed, or can be read offline on any desktop or mobile device.  Transcripts can also be converted to braille. 
+-   Transcripts can be used as a basis for foreign-language translations.
 
 Transcripts can be static documents or they can be interactive: e.g.,
-words can be highlighted automatically as they are spoken, or words can
+words can be highlighted automatically as they are spoken, or words and phrases can
 be selected by the user in order to move to that spot in the video.
 
 [![An example of an interactive transcript.](xcr_perspectives.png)](https://www.w3.org/WAI/perspectives/keyboard.html)
