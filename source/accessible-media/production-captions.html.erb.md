@@ -48,10 +48,7 @@ There are three ways to present captions to viewers:
 <%= notes_start %>
 {:/nomarkdown}
 
-**Note:** If a video has no narration or dialog, inform viewers about this so they do not think that captions are
-missing from the video. Provide a brief
-caption at the beginning of the video that indicates that no
-audio is provided.
+**Note:** If a video has no narration or dialog, inform viewers about this so they do not think that captions are missing from the video. Provide a brief caption at the beginning of the video that indicates that no audio is provided.
 
 {::nomarkdown}
 <%= notes_end %>
@@ -182,6 +179,9 @@ The genome is a storybook that's been edited<br />
 <%= code_end %>
 {:/nomarkdown}
 
+### Automatically generated captions
+
+Automatically generated captions should **never** be used as the sole method to produce captions, but they can be a part of the production workflow. See the [discussion about automatic captions](automatically-generated-captions.html) for more information.
 
 ## Resources for writing quality captions
 
