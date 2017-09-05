@@ -13,7 +13,7 @@
   </title>
   <link rel="canonical" href="https://www.w3.org/WAI/tutorials/accessible-media/" />
   <meta name="viewport" content="width=device-width">
-  <link href="../stylesheets/wai-act-51575202.css" rel="stylesheet" type="text/css" />
+  <link href="../stylesheets/wai-act-1949c06f.css" rel="stylesheet" type="text/css" />
   <script src="../javascripts/modernizr-a1c597b5.js" type="text/javascript"></script>
   <link rel="mask-icon" href="../img/w3cwai-maskicon-cf2cdf03.svg" color="#003366">
 </head>
@@ -31,7 +31,7 @@
     <nav aria-label="Skip links" role="navigation">
       <a href="#nav" class="btn btn-jump">Jump to the navigation</a>
     </nav>
-<main role="main" class="content editors-draft">
+<main role="main" class="content review-draft">
   <article role="article">
     <header class="tutorial-heading">
       <nav class="breadcrumb" aria-label="Breadcrumbs" role="navigation">
@@ -53,8 +53,9 @@
 
     
     
+    
       <div class="status">
-        <p><strong>Status:</strong> This is not ready for detailed review. It is an in-progress, unapproved editor’s draft.</p>
+        <p><strong>Status:</strong> Final Draft for EOWG Review and Approval.</p>
       </div>
     
 
@@ -67,58 +68,46 @@
       
 
 
-      <p>Captions and audio descriptions make online media accessible to people who have disabilities. This tutorial will demonstrate how to add captions and audio descriptions to online media.  Other accessibility techniques, such as transcripts and foreign-language subtitles, are included in the discussion.  Here are brief definitions of these media-accessibility approaches.</p>
+      <p>Captions, audio descriptions and transcripts make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions, audio descriptions and transcripts to video and audio clips. Other accessibility approaches, such as the inclusion of foreign-language subtitles, are also described.</p>
 
 <ul>
-  <li><strong>Audio descriptions</strong>: An extra track of narration that conveys
-information about important on-screen elements, such as body
-language, changes in scenery and context, on-screen charts and
-diagrams, etc.</li>
-  <li><strong>Captions</strong>: A text version of the program dialogue and narration,
-or other spoken words, fully synchronized with the program audio and
-displayed within the media player. Captions also include text
-identifying non-speech information, such as music and sound effects.</li>
-  <li><strong>Subtitles</strong>: A text version of a program's audio track, fully
-synchronized with the audio and translated into another language.</li>
-  <li><strong>Transcript</strong>: A text version of a program's audio track,
-containing narration or dialog plus non-speech information such as
-speaker-identification cues. Transcripts can be static documents or
-they can be interactive: e.g., a transcript can be synchronized so
-that words are highlighted automatically as they are spoken, or
-words can selected by the user in order to move to that spot in the
-video.</li>
+  <li><a href="production-captions/"><strong>Captions</strong></a> provide a text version of the video’s dialogue, narration,
+or other spoken words. They are synchronized with the program audio and
+displayed within the media player. Captions also include text identifying non-speech information, such as music and sound effects.</li>
+  <li><a href="subtitles/"><strong>Subtitles</strong></a> are a synchronized text version of a media’s audio track,
+translated into another language.</li>
+  <li><a href="transcript/"><strong>Transcripts</strong></a> are a text version of a video’s audio track,
+containing narration, dialog and non-speech information such as
+speaker-identification cues. Transcripts can be static or
+interactive documents. Interactive transcripts can be synchronized with the media: words are highlighted automatically as they are spoken, or
+users can select words to move to that spot in the
+video.  Transcripts are crucial for users who are deaf-blind, or for any user who relies on braille.</li>
+  <li><a href="production-audio-description/"><strong>Audio descriptions</strong></a> are an extra track of narration (audio or text) that conveys
+information about important visuals, such as body
+language, changes in scenery and context, charts and
+diagrams.</li>
 </ul>
 
-<h2 id="quality-considerations">Quality considerations</h2>
+<h2 id="what-are-high-quality-captions-and-audio-descriptions">What are high-quality captions and audio descriptions?</h2>
 
-<p>The quality of the captions and descriptions that are delivered to users
-is of high importance. In the same way that low-quality, incomplete
-audio is unacceptable to hearing viewers, captions that do not
-accurately reflect the audio, or contain spelling and grammatical
-errors, are unacceptable to deaf and hard-of-hearing viewers. Similarly,
-audio descriptions that provide misleading or inaccurate information, or
-which provide unnecessary detail (e.g., by giving away clues or
-answers), are of no use to viewers who are blind or visually impaired.</p>
+<p>Hearing viewers find low-quality, incomplete audio content unacceptable. Similarly, captions that are inaccurate or contain spelling and grammatical errors are unacceptable to deaf and hard-of-hearing viewers. Audio descriptions that provide misleading or inaccurate information, or which provide unnecessary detail (e.g., by giving away clues or answers), are of limited use to viewers who are blind or visually impaired.</p>
 
 <h2 id="why-is-this-important">Why is this important?</h2>
 
-<p>Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind or visually impaired, captions and descriptions have benefits beyond their original target
+<p>Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind, visually impaired or deaf-blind, captions, audio descriptions and transcripts have benefits beyond their original target
 audiences:</p>
 
 <ul>
-  <li>Both captions and descriptions can be used to help students and adults with cognitive disabilities engage more directly with media, helping to focus attention or to provide comprehension support.</li>
+  <li>Captions, descriptions and transcripts can be used to help all viewers, especially those with cognitive disabilities, engage more directly with media, helping to focus attention or to provide comprehension support.</li>
   <li>Captions are useful when teaching children and adults how to read,
 or to help people learn a foreign language.</li>
-  <li>Captions can be used by all people: for example, in noisy
-environments such as a bar or an airport lounge, or in any place
+  <li>Everyone can use captions in noisy
+environments such as a bar, an airport lounge, or in any place
 where it would be inappropriate to turn up the volume.</li>
-  <li>Search engines can use captions as a way to locate information in a
-video or audio presentation.</li>
-  <li>Audio descriptions can be used to reinforce complex visual concepts,
-especially for children or adults with learning disabilities.</li>
+  <li>Search engines can use captions and transcripts as a way to locate information in media.</li>
+  <li>Audio descriptions can reinforce complex visual concepts, which is
+especially useful for children or adults with learning disabilities.</li>
 </ul>
-
-<p>In some cases, captions and descriptions may be the only means by which users can access any information at all from video or audio clips.</p>
 
 <p>For a quick overview on determining whether or not captions and audio
 descriptions are necessary, see the <a href="decision-tree/">caption/description decision
@@ -342,9 +331,9 @@ tree</a>.</p>
       
     </h2>
     <ul aria-labelledby="list-heading-tutorials">
-      
+
         
-      
+
       
         
           <li class="intro"><span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Concepts</span></span></li>
@@ -388,7 +377,7 @@ tree</a>.</p>
   All Developer Intros
 </h2>
 <ul class="topics" aria-labelledby="list-heading-topics">
-  <li><span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Accessible Media <span class="status">editors-draft</span></span></span></li>
+  <li><span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Accessible Media <span class="status">review-draft</span></span></span></li>
 </ul>
 
   </nav>
@@ -401,9 +390,9 @@ tree</a>.</p>
 		<ul>
 			<li><strong>Status:</strong>
 				
-	        [EDITOR’S DRAFT] updated
+	      	Updated
 	      
-	      26 May 2017
+	      05 September 2017
 	      
 			</li>
       <li>
@@ -432,12 +421,12 @@ tree</a>.</p>
 		</p>
     <div class="copyright">
         <p>
-	        Copyright &#xA9; 2014 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
+	        Copyright &#xA9; 2017 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
         </p>
       </div><!-- ends copyright -->
     </div>
 	</footer>
-	<script src="../javascripts/main-11dc3c0f.js" type="text/javascript"></script>
+	<script src="../javascripts/main-818b5637.js" type="text/javascript"></script>
   <!-- Piwik -->
   <script type="text/javascript">
   var _paq = _paq || [];

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>
-  Production options for audio descriptions
+  Production Options for Audio Descriptions
   
     
        &bull; Accessible Media
@@ -13,7 +13,7 @@
   </title>
   <link rel="canonical" href="https://www.w3.org/WAI/tutorials/accessible-media/production-audio-description/" />
   <meta name="viewport" content="width=device-width">
-  <link href="../../stylesheets/wai-act-51575202.css" rel="stylesheet" type="text/css" />
+  <link href="../../stylesheets/wai-act-1949c06f.css" rel="stylesheet" type="text/css" />
   <script src="../../javascripts/modernizr-a1c597b5.js" type="text/javascript"></script>
   <link rel="mask-icon" href="../../img/w3cwai-maskicon-cf2cdf03.svg" color="#003366">
 </head>
@@ -31,7 +31,7 @@
     <nav aria-label="Skip links" role="navigation">
       <a href="#nav" class="btn btn-jump">Jump to the navigation</a>
     </nav>
-<main role="main" class="content editors-draft">
+<main role="main" class="content review-draft">
   <article role="article">
     <header class="tutorial-heading">
       <nav class="breadcrumb" aria-label="Breadcrumbs" role="navigation">
@@ -42,19 +42,20 @@
               <a class="" href="../"><span class="count"></span><span class="txt">Accessible Media</span></a> <span class="icon icon-chevron-right"></span><span class="visuallyhidden">»</span>
             
             
-            <span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Production options for audio descriptions</span></span>
+            <span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Production Options for Audio Descriptions</span></span>
           </span>
         </p>
       </nav>
       <h1>
-        Production options for audio descriptions
+        Production Options for Audio Descriptions
       </h1>
     </header>
 
     
     
+    
       <div class="status">
-        <p><strong>Status:</strong> This is not ready for detailed review. It is an in-progress, unapproved editor’s draft.</p>
+        <p><strong>Status:</strong> Final Draft for EOWG Review and Approval.</p>
       </div>
     
 
@@ -68,7 +69,7 @@
 
       <h2 id="description-basics">Description basics</h2>
 
-<p>Audio descriptions can be open or closed:</p>
+<p>Audio descriptions are an extra track of narration (audio or text) that conveys information about important visuals, such as body language, changes in scenery and context, charts and diagrams.  Audio descriptions can be open or closed:</p>
 
 <ul>
   <li><strong>Open audio descriptions</strong> are integrated into the program audio
@@ -80,7 +81,7 @@ track and are heard by everyone. They cannot be turned off.</li>
 
 <ul>
   <li>Audio descriptions are usually timed to play during pauses or breaks
-in narration or dialog, although <a href="#ext_dx">extended audio
+in narration or dialog, although <a href="#extended-descriptions">extended audio
 descriptions</a> may be implemented where necessary.</li>
   <li>In cases where no pauses are available, a single summary, called a
 pre-description, can be inserted at the beginning of the
@@ -164,7 +165,7 @@ media presentations.</li>
 
   </div></figure>
 
-<p>When recording the descriptions, it will pay to create the
+<p>When recording the descriptions, create the
 highest-quality audio files possible. Keep these points in mind:</p>
 
 <ul>
@@ -181,10 +182,10 @@ program-audio level to its proper setting. Repeat this process
 (known as "ducking") for every description instance.</li>
 </ul>
 
-<h2 id="production-workflow-audio-descriptions-tts-narration">Production workflow: audio descriptions (TTS narration)</h2>
+<h2 id="producing-tts-audio-descriptions">Producing TTS audio descriptions</h2>
 
 <p>TTS descriptions are not pre-recorded. Instead, they are transmitted at
-the proper intervals to users during playback, and are read aloud by the
+the appropriate intervals to users during playback, and are read aloud by the
 user's screen reader. Think of them as an invisible text track that
 screen readers can read aloud as the text is delivered. See <a href="http://ncamftp.wgbh.org/ibm/dvs/">examples of
 TTS descriptions</a>. The basic workflow
@@ -200,7 +201,7 @@ for TTS audio descriptions generally follows this pattern:</p>
  Note opportunities for descriptive narration (i.e., pauses in
  narration or dialog into which descriptions can be inserted).</li>
   <li><strong>Write the description script</strong><br />
- Using a <strong>caption-editing tool</strong>, write the description script that
+ Using a caption-editing tool, write the description script that
  will be read aloud by a screen reader during the time of playback.</li>
   <li><strong>Assign timecodes to each description</strong><br />
  Each timecode will represent when the description should be read by
@@ -218,7 +219,7 @@ for TTS audio descriptions generally follows this pattern:</p>
 
 <p><img alt="A caption editor showing a timestamped description script." src="../../img/dx_script-4222d033.png" /></p>
 
-<p>Using the <code>track</code> element and the <code><a href="https://html.spec.whatwg.org/multipage/embedded-content.html#text-track-kind">kind</a></code> attribute, the descriptions can be delivered at the time of playback and a screen reader will read them aloud. Below is a code sample:</p>
+<p>Using the <code>track</code> element and the <code><a href="https://www.w3.org/TR/html51/semantics-embedded-content.html#the-track-element">kind</a></code> attribute, the descriptions can be delivered at the time of playback and a screen reader will read them aloud. Below is a code sample:</p>
 
 <figure class="code ">
   <figcaption>Code snippet: </figcaption>
@@ -228,13 +229,13 @@ for TTS audio descriptions generally follows this pattern:</p>
 <span class="nt">&lt;/video&gt;</span>
 </code></pre>
 </figure>
-<p>The <code>kind</code> attribute will cause the description file to be received invisibly (e.g., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about <a href="https://www.w3.org/WAI/GL/wiki/Using_the_track_element_to_provide_audio_descriptions">techniques for delivering TTS descriptions</a>. See <a href="http://ncamftp.wgbh.org/ibm/dvs/#videos">functioning examples of TTS descriptions</a> using the <code>track</code> element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.</p>
+<p>The <code>kind</code> attribute will cause the description file to be received invisibly (i.e., off-screen) so sighted users will not see it, but screen readers will be aware of it. Screen readers will then read the description text as it is delivered, synchronized at the time of playback. Read more about <a href="https://www.w3.org/TR/WCAG20-TECHS/H96.html">techniques for delivering TTS descriptions</a>. See <a href="http://ncamftp.wgbh.org/ibm/dvs/#videos">functioning examples of TTS descriptions</a> using the <code>track</code> element along with Javascript to illustrate how screen readers will read off-screen descriptions aloud.</p>
 
 <h2 id="extended-descriptions">Extended descriptions</h2>
 
 <p>Typically, descriptions are written to fit into natural pauses in narration or dialog. However, there will be circumstances where the pauses are not long enough to accommodate a full description. In these cases, extended descriptions may be implemented. In an extended description, the video and audio tracks are programmatically paused when the description begins playing. When the description is finished playing, the video and audio tracks are programmatically resumed. At the next instance of an extended description, the process is repeated. Note that extended and "regular" descriptions may be mixed in a single multimedia presentation.</p>
 
-<p>The only markup-based method for providing extended audio descriptions is to use <a href="https://www.w3.org/TR/SMIL3/">SMIL 3.0</a>, a language for writing interactive multimedia presentations. Support for SMIL is very limited, however, and may require the use of a custom player. Other non-markup-based methods have been experimented with, such as creating an open-described video with a video track that appears to freeze while a separate open-description track plays. See an <a href="https://mass.pbslearningmedia.org/resource/tdc02.sci.life.reg.deathvall/teri-and-jairus-biome-buddies/na/">example of a video with open extended audio descriptions</a> (created using a non-markup method). Also, read <a href="http://ncam.wgbh.org/file_download/103">one method for creating videos with extended open audio descriptions (see chapter 4.9)</a>.&lt;/p&gt;</p>
+<p>The only markup-based method for providing extended audio descriptions is to use <a href="https://www.w3.org/TR/SMIL3/">SMIL 3.0</a>, a language for writing interactive multimedia presentations. Support for SMIL is very limited, however: implementations will most likely require the use of plug-ins and/or heavily customized approaches. Other non-markup-based methods have been experimented with, such as creating an open-described video with a video track that appears to freeze while a separate open-description track plays. See an <a href="https://mass.pbslearningmedia.org/resource/tdc02.sci.life.reg.deathvall/teri-and-jairus-biome-buddies/na/">example of a video with open extended audio descriptions</a> (created using a non-markup method); press the Play button on the player to watch the video and hear the descriptions. Also, read <a href="http://ncam.wgbh.org/file_download/103">one method for creating videos with extended open audio descriptions (see chapter 4.9)</a>.&lt;/p&gt;</p>
 
 <h2 id="resources-for-writing-descriptions">Resources for writing descriptions</h2>
 
@@ -243,7 +244,6 @@ for TTS audio descriptions generally follows this pattern:</p>
 <ul>
   <li><a href="http://www.descriptionkey.org/how_to_describe.html"><abbr title="Described and Captioned Media Program">DCMP</abbr> Description Key</a></li>
   <li><a href="https://www.dcmp.org/ai/227/"><abbr title="Described and Captioned Media Program">DCMP</abbr> Description Tip Sheet</a></li>
-  <li><a href="http://diagramcenter.org/research.html#multimedia">Accessible Multimedia whitepaper</a></li>
 </ul>
 
 
@@ -874,9 +874,9 @@ for TTS audio descriptions generally follows this pattern:</p>
       
     </h2>
     <ul aria-labelledby="list-heading-tutorials">
-      
+
         
-      
+
       
         
           <li class="intro"><a class="" href="../"><span class="count"></span><span class="txt">Concepts</span></a></li>
@@ -944,7 +944,7 @@ for TTS audio descriptions generally follows this pattern:</p>
   All Developer Intros
 </h2>
 <ul class="topics" aria-labelledby="list-heading-topics">
-  <li><span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Accessible Media <span class="status">editors-draft</span></span></span></li>
+  <li><span class="current-a"><span class="count"></span><span class="txt"><span class="visuallyhidden">Current: </span>Accessible Media <span class="status">review-draft</span></span></span></li>
 </ul>
 
   </nav>
@@ -957,9 +957,9 @@ for TTS audio descriptions generally follows this pattern:</p>
 		<ul>
 			<li><strong>Status:</strong>
 				
-	        [EDITOR’S DRAFT] updated
+	      	Updated
 	      
-	      26 May 2017
+	      05 September 2017
 	      
 			</li>
       <li>
@@ -988,12 +988,12 @@ for TTS audio descriptions generally follows this pattern:</p>
 		</p>
     <div class="copyright">
         <p>
-	        Copyright &#xA9; 2014 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
+	        Copyright &#xA9; 2017 W3C <sup>&#xAE;</sup> (<a href="http://www.csail.mit.edu/"><abbr title="Massachusetts Institute of Technology">MIT</abbr></a>, <a href="http://www.ercim.eu/"><abbr title="European Research Consortium for Informatics and Mathematics">ERCIM</abbr></a>, <a href="http://www.keio.ac.jp/">Keio</a>, <a href="http://ev.buaa.edu.cn/">Beihang</a>) <a href="/Consortium/Legal/ipr-notice">Usage policies apply</a>.
         </p>
       </div><!-- ends copyright -->
     </div>
 	</footer>
-	<script src="../../javascripts/main-11dc3c0f.js" type="text/javascript"></script>
+	<script src="../../javascripts/main-818b5637.js" type="text/javascript"></script>
   <!-- Piwik -->
   <script type="text/javascript">
   var _paq = _paq || [];
