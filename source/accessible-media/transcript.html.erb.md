@@ -2,7 +2,7 @@
 title: Transcripts
 nav_title: Transcripts
 order: 6
-status: editors-draft
+status: review-draft
 wcag_success_criteria:
   - 1.2.1
   - 1.2.8
@@ -23,7 +23,7 @@ At a minimum, a transcript is a text version of a program's audio track. For max
 
 -   Users can quickly scan a transcript to learn about a video- or audio-file's subject matter prior to watching or listening to the media.
 -   Transcripts can be easily searched.
--   Transcripts can be printed, or can be read offline on any desktop or mobile device.  Transcripts can also be converted to braille. 
+-   Transcripts can be printed, or can be read offline on any desktop or mobile device.  Transcripts can also be converted to braille.
 -   Transcripts can be used as a basis for foreign-language translations.
 
 Transcripts can be static documents or they can be interactive: e.g.,

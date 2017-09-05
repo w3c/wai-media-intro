@@ -2,7 +2,7 @@
 title: Caption Formats
 nav_title: Caption formats
 order: 3
-status: editors-draft
+status: review-draft
 wcag_success_criteria:
   - 1.2.2
 wcag_techniques:
@@ -23,9 +23,9 @@ Nearly all modern browsers and media players support the display of closed capti
     (TTML)](https://www.w3.org/TR/ttaf1-dfxp/)
 -   [SRT](https://matroska.org/technical/specs/subtitles/srt.html)
 
-Standalone players typically support WebVTT and/or TTML.  Streaming media services typically use TTML to convey captions to users.  
+Standalone players typically support WebVTT and/or TTML.  Streaming media services typically use TTML to convey captions to users.
 
-WebVTT and TTML contain a full array of markup for styling, timing and placement options.  SRT is a bare-bones format that displays unstyled text only, although some user agents may support basic styling commands (such as bold or italic text) if they are present in the caption file.  
+WebVTT and TTML contain a full array of markup for styling, timing and placement options.  SRT is a bare-bones format that displays unstyled text only, although some user agents may support basic styling commands (such as bold or italic text) if they are present in the caption file.
 
 Web browsers support various caption formats, as shown in the table below.
 

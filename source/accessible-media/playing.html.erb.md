@@ -2,7 +2,7 @@
 title: Playing Accessible Media
 nav_title: Playing media
 order: 8
-status: editors-draft
+status: review-draft
 wcag_success_criteria:
   - 1.2.2
   - 1.2.5

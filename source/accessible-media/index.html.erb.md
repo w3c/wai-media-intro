@@ -5,7 +5,7 @@ nav_title: Concepts
 order: 1
 topic_order: 4
 type: intro
-status: editors-draft
+status: review-draft
 wcag_success_criteria:
   - 1.2.1
   - 1.2.2
@@ -19,6 +19,7 @@ contributors:
   - The Education and Outreach Working Group (<a href="https://www.w3.org/WAI/EO/">EOWG</a>)
 support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/">U.S. Access Board, WCAG TA Project</a>
 ---
+
 Captions, audio descriptions and transcripts make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions, audio descriptions and transcripts to video and audio clips. Other accessibility approaches, such as the inclusion of foreign-language subtitles, are also described.
 
 -   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
