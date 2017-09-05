@@ -31,6 +31,11 @@
         <p><strong>Status:</strong> This is not ready for detailed review. It is an in-progress, unapproved editor’s draft.</p>
       </div>
     <% end %>
+    <% if current_page.data.status=="review-draft" %>
+      <div class="status">
+        <p><strong>Status:</strong> Final Draft for EOWG Review and Approval.</p>
+      </div>
+    <% end %>
 
 
     <div class="inner">
@@ -91,11 +96,9 @@
       <% end %>
     </h2>
     <ul aria-labelledby="list-heading-tutorials">
-      <% if current_page.parent.parent && current_page.parent.parent.data.title != "Developer Intros Overview" %>
-        <% parent_page = current_page.parent.parent %>
-      <% else %>
+
         <% parent_page = current_page.parent %>
-      <% end %>
+
       <% if current_page.data.type == 'intro' %>
         <% if current_page.data.nav_title %>
           <li<%= ' class="' + current_page.data.type + '"' if current_page.data.type %>><%= nav_link(current_page.data.nav_title, '/' + current_page.path, :relative => true) %></li>
