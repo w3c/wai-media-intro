@@ -22,21 +22,13 @@ support: Developed with support from the <a href="https://www.w3.org/WAI/WCAGTA/
 
 Captions, audio descriptions and transcripts make online media accessible to people with disabilities. This tutorial will demonstrate how to add captions, audio descriptions and transcripts to video and audio clips. Other accessibility approaches, such as the inclusion of foreign-language subtitles, are also described.
 
--   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration,
-    or other spoken words. They are synchronized with the program audio and
-    displayed within the media player. Captions also include text identifying non-speech information, such as music and sound effects.
--   [**Subtitles**](subtitles.html) are a synchronized text version of a media’s audio track,
-    translated into another language.
--   [**Transcripts**](transcript.html) are a text version of a video’s audio track,
-    containing narration, dialog and non-speech information such as
-    speaker-identification cues. Transcripts can be static or
-    interactive documents. Interactive transcripts can be synchronized with the media: words are highlighted automatically as they are spoken, or
-    users can select words to move to that spot in the
-    video.  Transcripts are crucial for users who are deaf-blind, or for any user who relies on braille.
--   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys
-    information about important visuals, such as body
-    language, changes in scenery and context, charts and
-    diagrams.
+-   [**Captions**](production-captions.html) provide a text version of the video’s dialogue, narration, or other spoken words. They are synchronized with the program audio and displayed within the media player. Captions also include text identifying non-speech information, such as music and sound effects.
+
+-   [**Subtitles**](subtitles.html) are a synchronized text version of a media’s audio track, translated into another language.
+
+-   [**Transcripts**](transcript.html) are a text version of a video’s audio track, containing narration, dialog and non-speech information such as speaker-identification cues. Transcripts can be static or interactive documents. Interactive transcripts can be synchronized with the media: words are highlighted automatically as they are spoken, or users can select words to move to that spot in the video.  Transcripts are crucial for users who are deaf-blind, or for any user who relies on braille.
+
+-   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys information about important visuals, such as body language, changes in scenery and context, charts and diagrams.
 
 ## What are high-quality captions and audio descriptions?
 

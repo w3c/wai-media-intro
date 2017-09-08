@@ -95,15 +95,6 @@ formatted and timestamped. Each caption is assigned a start/display time. In thi
 
 ### Caption quality
 
-{::nomarkup}
-<%= ref :start %>
-{:/nomarkup}
-
-
-{::nomarkup}
-<%= ref :middle %>
-{:/nomarkup}
-
 Always provide the highest-quality captions that convey 100% accuracy.
 Keep the following points in mind when writing
 captions:
@@ -120,10 +111,6 @@ captions:
 
 See [resources for writing quality captions](#resources-for-writing-quality-captions) for more
 information.
-
-{::nomarkup}
-<%= ref :end %>
-{:/nomarkup}
 
 ### Styling captions
 

@@ -86,8 +86,8 @@ child element of the `video` element:
 </video>
 ~~~
 
-In the example above, the `kind` attribute is set to "captions" to identify what type of text track it is.  The `label` attribute is set to "Caption," which is the visible text (or label) that the user agent will display to identify the track to the user. [Learn more about attributes for the `track` element](https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-track-element).
-
 {::nomarkdown}
 <%= code_end %>
 {:/nomarkdown}
+
+In the example above, the `kind` attribute is set to "captions" to identify what type of text track it is.  The `label` attribute is set to "Caption," which is the visible text (or label) that the user agent will display to identify the track to the user. [Learn more about attributes for the `track` element](https://www.w3.org/TR/2016/REC-html51-20161101/semantics-embedded-content.html#the-track-element).
