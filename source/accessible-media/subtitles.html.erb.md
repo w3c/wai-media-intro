@@ -81,7 +81,7 @@ the language in the `label` attribute:
 ~~~html
 <video controls>
     <source src="myvideo.mp4" type="video/mp4" />
-    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="en" label="Italian" default />
+    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="it" label="Italian" default />
 </video>
 ~~~
 
