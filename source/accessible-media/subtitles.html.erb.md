@@ -92,7 +92,7 @@ the language in the `label` attribute:
 In some cases, it may be necessary to use captions and subtitles
 together: for example, if an important sound effect is used in the audio
 track, that sound can be conveyed through a single sound-effect caption
-placed near the a subtitle, as shown in the image below.
+placed near the subtitle, as shown in the image below.
 
 ![A frame of video showing a sound-effect caption positioned above a
 subtitle.](cc_sub_together.png)
