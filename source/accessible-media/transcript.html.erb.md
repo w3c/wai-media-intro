@@ -45,7 +45,7 @@ any Web page, an accessible transcript should be marked up with
 headings, links, landmark roles, lists and other structure in order to
 make navigation as efficient as possible. Read
 more about [best practices for creating
-transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#best).
+transcripts](http://www.uiaccess.com/transcripts/transcripts_on_the_web.html#bests).
 
 ### Basic workflow for creating transcripts:
 
