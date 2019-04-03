@@ -81,7 +81,7 @@ the language in the `label` attribute:
 ~~~html
 <video controls>
     <source src="myvideo.mp4" type="video/mp4" />
-    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="en" label="Italian" default />
+    <track kind="subtitles" src="my_italian_subtitles.vtt" srclang="it" label="Italian" default />
 </video>
 ~~~
 
@@ -92,7 +92,7 @@ the language in the `label` attribute:
 In some cases, it may be necessary to use captions and subtitles
 together: for example, if an important sound effect is used in the audio
 track, that sound can be conveyed through a single sound-effect caption
-placed near the a subtitle, as shown in the image below.
+placed near the subtitle, as shown in the image below.
 
 ![A frame of video showing a sound-effect caption positioned above a
 subtitle.](cc_sub_together.png)
