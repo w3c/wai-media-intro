@@ -276,7 +276,7 @@
 		if ((window.location.hostname !== 'www.w3.org') && (window.location.hostname !== 'w3.org')) {
 			var notification = document.createElement('div');
 			notification.className = 'not-w3c-notification';
-			notification.innerHTML = 'Final Draft for EOWG Review and Approval.';
+			notification.innerHTML = 'This is an incomplete, unapproved draft. We’ll add a link to the new draft in June 2019.';
 			document.getElementsByClassName('w3c-wai-header')[0].insertAdjacentHTML('beforebegin', notification.outerHTML);
 
 			document.getElementsByTagName('title')[0].innerHTML = '[PREVIEW] ' + document.getElementsByTagName('title')[0].innerHTML;

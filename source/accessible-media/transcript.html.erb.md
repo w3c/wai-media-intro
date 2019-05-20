@@ -2,7 +2,7 @@
 title: Transcripts
 nav_title: Transcripts
 order: 6
-status: review-draft
+status: draft
 wcag_success_criteria:
   - 1.2.1
   - 1.2.8

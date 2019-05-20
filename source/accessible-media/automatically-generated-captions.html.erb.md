@@ -2,7 +2,7 @@
 title: Automatically Generated Captions
 nav_title: Automatic Captions
 order: 4
-status: review-draft
+status: draft
 wcag_success_criteria:
   - 1.2.2
 editors:

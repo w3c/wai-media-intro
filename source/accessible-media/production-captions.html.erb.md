@@ -2,7 +2,7 @@
 title: Producing Captions
 nav_title: Captions
 order: 2
-status: review-draft
+status: draft
 wcag_success_criteria:
   - 1.2.2
 wcag_techniques:
