@@ -1,8 +1,9 @@
 # WAI Media Developer Intro
 
-This is the repository for the WAI tutorials, see [current draft][LivePage].
-
-You can find the current draft state of the document on [this Github Pages site][GHPage]
+> [!IMPORTANT]
+> This repository has been archived 9 July 2026.
+>
+> [Tutorials](https://www.w3.org/WAI/tutorials/) are now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
 
 ## How to contribute
 
