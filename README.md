@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > This repository has been archived 9 July 2026.
 >
-> [Tutorials](https://www.w3.org/WAI/tutorials/) are now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
+> [Making Audio and Video Media Accessible](https://www.w3.org/WAI/media/av/) are now edited in the [wai-website](https://github.com/w3c/wai-website) repository.
 
 ## How to contribute
 
