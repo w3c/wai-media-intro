@@ -30,10 +30,6 @@ Captions, audio descriptions and transcripts make online media accessible to peo
 
 -   [**Audio descriptions**](production-audio-description.html) are an extra track of narration (audio or text) that conveys information about important visuals, such as body language, changes in scenery and context, charts and diagrams.
 
-## What are high-quality captions and audio descriptions?
-
-Hearing viewers find low-quality, incomplete audio content unacceptable. Similarly, captions that are inaccurate or contain spelling and grammatical errors are unacceptable to deaf and hard-of-hearing viewers. Audio descriptions that provide misleading or inaccurate information, or which provide unnecessary detail (e.g., by giving away clues or answers), are of limited use to viewers who are blind or visually impaired.
-
 ## Why is this important?
 
 Besides providing crucial communication access for viewers who are deaf, hard of hearing, blind, visually impaired or deaf-blind, captions, audio descriptions and transcripts have benefits beyond their original target
@@ -48,6 +44,8 @@ audiences:
 -   Search engines can use captions and transcripts as a way to locate information in media.
 -   Audio descriptions can reinforce complex visual concepts, which is
     especially useful for children or adults with learning disabilities.
+
+It is important that captions, transcripts, and audio descriptions are accurate and high quality, for example, they include all relevant information and do not have spelling errors.
 
 For a quick overview on determining whether or not captions and audio
 descriptions are necessary, see the [caption/description decision
